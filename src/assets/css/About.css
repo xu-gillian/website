@@ -1,0 +1,42 @@
+.removeSpacing {
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.about-section {
+    font-size: 75px;
+    padding-bottom: 15px;
+    color: rgb(119, 99, 80);
+    font-weight: bolder;
+}
+
+.about-container {
+    background-color: rgba(206, 197, 189, 0.862);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.profile-image {
+    background-image: url("../images/gillian.jpeg");
+    width: 40vh;
+    height: 40vh;
+    background-size: contain;
+    border-radius: 15px;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(127, 109, 96, 0.2), 0 6px 20px 0 rgba(132, 114, 102, 0.19);
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+}

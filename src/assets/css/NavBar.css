@@ -1,0 +1,36 @@
+.nav-top {
+    padding: 20px 40px;
+    width: calc(100% - 80px);
+    top: 0;
+    position: fixed;
+    background: transparent;
+}
+
+.nav-top.active {
+    padding: 7px 40px;
+    background: rgb(104, 92, 83);
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+}
+
+.options {
+    padding: 13px;
+    font-size: 1.2rem;
+    border: 1px solid;
+    border-color: transparent;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    background: none;
+    outline: none;
+}
+
+.options:hover {
+    color: rgb(184, 156, 130);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+}

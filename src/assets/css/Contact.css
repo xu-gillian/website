@@ -1,0 +1,25 @@
+.contact-container {
+    height: 40vh;
+    background-color: rgba(246, 241, 236, 0.473);
+    color: rgb(119, 99, 80);
+    padding-top: 6vw;
+    padding-left: 12vw;
+}
+
+.contact-title {
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(119, 99, 80);
+}
+
+.contact-information {
+    padding-left: 4vw;
+    font-weight: 600;
+}
+
+.links {
+    padding-left: 40vw;
+    font-weight: 600;
+    color: rgb(149, 124, 101);
+}

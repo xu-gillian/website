@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subject {
+    padding-bottom: 50px;
+}
+
+.section-line {
+    background-image: url("../images/line.png");
+    height: 50px;
+    width: 2px;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.experience-text-container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+.experience-container:hover {
+    transition-timing-function: ease-in;
+    transition: 1s;
+    box-shadow: 0 4px 8px 0 rgba(127, 109, 96, 0.2), 0 6px 20px 0 rgba(132, 114, 102, 0.19);
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+    background-size: contain;
+    border-radius: 15px;
+    margin: 40px;
+}
+
+.logo.spotwork-image {
+    background-image: url("../images/spotworkIcon.png");
+}
+
+.logo.ma-image {
+    background-image: url("../images/maicon.jpg");
+}
+
+.logo.felicity-image {
+    background-image: url("../images/felicityicon.png");
+}
+
+.logo.consano-image {
+    background-image: url("../images/consano.png");
+}
+
+.harmonyy-image {
+    height: 41px;
+    width: 65px;
+    padding: 20px;
+    background-size: contain;
+    border-radius: 15px;
+    margin: 40px;
+    background-image: url("../images/harmonyy.png");
+}
+
+.logo.yumyum-image {
+    background-image: url("../images/yumyum.png");
+}
