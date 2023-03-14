@@ -3,7 +3,7 @@ import "../assets/css/ExperienceProject.css";
 
 const Projects = () => {
     return(
-        <div className="container">
+        <div className="container" id="projects">
             <div className = "new-section">Projects</div>
             <div className="subject">Click on the icon for more details or to access the app.</div>
             <div className="section-line"></div>

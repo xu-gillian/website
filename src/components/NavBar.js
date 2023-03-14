@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import "../assets/css/NavBar.css";
 
 
@@ -16,15 +18,17 @@ const NavBar = () => {
     window.addEventListener('scroll', changeNavColour);
 
     return (
+        <BrowserRouter>
         <div className={navColour ? 'nav-top active' : 'nav-top'}>
             <div className = "nav-container">
-                <button className="options">Experience</button>
-                <button className="options">Projects</button>
-                <button className="options">About</button>
-                <button className="options">Contact </button>
-                <button className="options" >Resume</button>
+                <Link className="options" to='#experience' smooth>Experience</Link>
+                <Link className="options" to='#projects' smooth>Projects</Link>
+                <Link className="options" to='#about'smooth>About</Link>
+                <Link className="options" to='#contact' smooth>Contact </Link>
+                <a className="options" href="https://xu-gillian.github.io/website/Gillian_resume.pdf" target="_blank" rel="noreferrer">Resume</a>
             </div>
         </div>
+        </BrowserRouter>
     );
 }
 
