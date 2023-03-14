@@ -8,9 +8,15 @@ const Experience = () => {
             <div className="experience-container">
                 <div className="logo spotwork-image"></div>
                 <div className="experience-text-container">
-                    <p>Spotwork - Mobile Developer</p>
-                    <span>Flutter, Dart, Firebase</span>
-                    <span>May 2022 - Aug 2022</span>
+                    <div className="text-p-e">
+                        <span className="text-main">Mobile Developer - </span>
+                        <a className="text-company-project" href="https://spotwork.co/" target= "_blank" rel="noreferrer">Spotwork</a>
+                    </div>
+                    <div>
+                        <span className="text-techstack">Flutter, Dart, Firebase</span>
+                        <span className="experience-text-date">May 2022 - Aug 2022</span>
+                    </div>
+                    
                     <ul>
                         <li>Developed end-to-end user onboarding flow for US expansion</li>
                         <li>Created new submission flow using Flutter and Dart for contractors to submit ID and equipment verification</li>
@@ -24,9 +30,14 @@ const Experience = () => {
             <div className="experience-container">
                 <div className="logo ma-image"></div>
                 <div className="experience-text-container">
-                    <p>Mortgage Automator Inc - JR HTML Developer</p>
-                    <span>HTML, CSS</span>
-                    <span>Aug 2021 - Dec 2021</span>
+                    <div className="text-p-e">
+                        <span className="text-main">JR HTML Developer - </span>
+                        <a className="text-company-project" href="https://www.mortgageautomator.com/" target= "_blank" rel="noreferrer">Mortgage Automator Inc</a>
+                    </div>
+                    <div>
+                        <span className="text-techstack">HTML, CSS</span>
+                        <span className="experience-text-date">Aug 2021 - Dec 2021</span>
+                    </div>
                     <ul>
                         <li>Coded Structures for 10+ documentation forms and input custom variable fields</li>
                         <li>Conducted tests to identify errors, debugged code to ensure documents fully met client requirements</li>
@@ -39,9 +50,13 @@ const Experience = () => {
             <div className="experience-container">
                 <div className="logo felicity-image"></div>
                 <div className="experience-text-container">
-                    <p>Felicity -  Frontend Developer</p>
-                    <span>Flutter, Dart</span>
-                    <span>May 2021 - Aug 2021</span>
+                    <div className="text-p-e">
+                        <span className="text-main">Frontend Developer - </span>
+                        <a className="text-company-project" href="https://www.felicityapp.org/" target= "_blank" rel="noreferrer">Felicity</a>
+                    </div>
+                    <div>
+                        <span className="text-techstack">Flutter, Dart</span>
+                        <span className="experience-text-date">May 2021 - Aug 2021</span></div>
                     <ul>
                         <li>Deveoped UI for a productivity assessment questionnaire consisting of a sequence of timed questions</li>
                         <li>Designed and developed a customizable pomodoro timer</li>

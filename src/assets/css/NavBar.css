@@ -18,7 +18,7 @@
     font-size: 1.2rem;
     border: 1px solid;
     border-color: transparent;
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 5px;
     cursor: pointer;
     width: fit-content;
@@ -26,11 +26,33 @@
     outline: none;
     text-decoration: none;
     font-weight: 900;
+    display: inline-block;
+    position: relative;
 }
 
 .options:hover {
-    color: rgb(184, 156, 130);
+    color: rgb(170, 146, 123);
 }
+
+.options::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(170, 151, 132);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.options:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
 
 .nav-container {
     display: flex;

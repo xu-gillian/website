@@ -28,6 +28,45 @@
     width: 40vw;
 }
 
+.experience-text-date {
+    display: flex;
+    float: right;
+}
+
+.text-techstack {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(119, 99, 80);
+}
+
+.text-p-e {
+    padding-bottom: 10px;
+}
+
+.text-main {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.text-company-project {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 18px;
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.text-company-project.project {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.text-company-project:hover {
+    color: rgb(170, 151, 132);
+
+}
+
 .experience-container:hover {
     transition-timing-function: ease-in;
     transition: 1s;

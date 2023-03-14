@@ -5,13 +5,15 @@ const Projects = () => {
     return(
         <div className="container" id="projects">
             <div className = "new-section">Projects</div>
-            <div className="subject">Click on the icon for more details or to access the app.</div>
             <div className="section-line"></div>
             <div className="experience-container">
-                <div className="logo consano-image"></div>
+                <div className="logo consano-image" to="https://devpost.com/software/harmonyy-x4k9dq"></div>
                 <div className="experience-text-container">
-                    <p>Consano - Voice-based wellness update web interface for hospital patients</p>
-                    <span>React, Express.js, Cohere.ai API</span>
+                    <div className="text-p-e">
+                        <a className="text-company-project project" href="https://devpost.com/software/consano" target="_blank" rel="noreferrer">Consano</a>
+                        <span>  - Voice-based wellness update web interface for hospital patients</span>
+                    </div>
+                    <span className="text-techstack">React, Express.js, Cohere.ai API</span>
                     <ul>
                         <li>Predicted changes in patient health based on natural language statements using NLP API Cohere.ai to train ML model</li>
                         <li>Created frontend with a voice recognition system using React</li>
@@ -25,8 +27,11 @@ const Projects = () => {
             <div className="experience-container">
                 <div className="harmonyy-image"></div>
                 <div className="experience-text-container">
-                    <p>Harmonyy - Real-time messaging and interactive gaming platform.</p>
-                    <span>HTML, CSS, JavaScript, MySQL, Node.js</span>
+                    <div className="text-p-e">
+                        <a className="text-company-project project" href="https://devpost.com/software/harmonyy-x4k9dq" target="_blank" rel="noreferrer">Harmonyy</a>
+                        <span> - Real-time messaging and interactive gaming platform.</span>
+                    </div>
+                    <span className="text-techstack">HTML, CSS, JavaScript, MySQL, Node.js</span>
                     <ul>
                         <li>Developed game logic using JavaScript, allowing users to draw a word on a canvas before prompting others to input a guess</li>
                         <li>Created real-time messaging system using Node.js</li>
@@ -40,8 +45,11 @@ const Projects = () => {
             <div className="experience-container">
                 <div className="logo yumyum-image"></div>
                 <div className="experience-text-container">
-                    <p>YuMyUm - Web interface for users to select and total menu items</p>
-                    <span>React, Javascript</span>
+                    <div className="text-p-e">
+                        <a className="text-company-project project" href="https://xu-gillian.github.io/YuMyUm/" target="_blank" rel="noreferrer">Harmonyy</a>
+                        <span> - Web interface for users to select and total menu items</span>
+                    </div>
+                    <span className="text-techstack">React, Javascript</span>
                     <ul>
                         <li>Designed a menu allowing users to add desired quantity of items to a cart</li>
                         <li>Created modal overlays to display order details and allow item adjustments</li>
