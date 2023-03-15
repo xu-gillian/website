@@ -4,6 +4,13 @@
     color: rgb(119, 99, 80);
     padding-top: 6vw;
     padding-left: 12vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-information-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .contact-title {
@@ -16,10 +23,33 @@
 .contact-information {
     padding-left: 4vw;
     font-weight: 600;
+    padding-bottom: 15px;
 }
 
 .links {
-    padding-left: 40vw;
+    padding-left: 25vw;
     font-weight: 600;
     color: rgb(149, 124, 101);
+    padding-bottom: 15px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width:600px) {
+    .contact-information-container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+
+    .contact-information {
+        padding-left: 0;
+    }
+
+    .links {
+        padding-left: 0;
+    }
 }

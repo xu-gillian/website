@@ -53,8 +53,6 @@
     text-underline-offset: 3px;
     font-size: 18px;
     color: black;
-    display: inline-block;
-    position: relative;
 }
 
 .text-company-project.project {
@@ -73,13 +71,13 @@
     box-shadow: 0 4px 8px 0 rgba(127, 109, 96, 0.2), 0 6px 20px 0 rgba(132, 114, 102, 0.19);
 }
 
+
 .logo {
     height: 70px;
     width: 70px;
-    padding: 20px;
     background-size: contain;
     border-radius: 15px;
-    margin: 40px;
+    /* margin: 15px; */
 }
 
 .logo.spotwork-image {
@@ -100,14 +98,27 @@
 
 .harmonyy-image {
     height: 41px;
-    width: 65px;
-    padding: 20px;
+    width: 52px;
     background-size: contain;
-    border-radius: 15px;
-    margin: 40px;
     background-image: url("../images/harmonyy.png");
+    /* margin: 15px; */
 }
 
 .logo.yumyum-image {
     background-image: url("../images/yumyum.png");
+}
+
+@media only screen and (max-width:600px) {
+    .experience-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-text-container {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
 }

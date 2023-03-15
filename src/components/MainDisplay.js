@@ -29,10 +29,16 @@ const MainDisplay = () => {
         <div>
             <NavBar />
             <div className="wrapper">
-                <p className="intro-name-text">Hi! I'm Gillian Xu</p>
-                <p className="intro-attribute-text">a &nbsp;
-                    <span className="slideUp">{attributes[index]}</span>
+                <div className="test">
+                <p className="intro-name-text">
+                    <span>Hi! I'm </span>
+                    <span className="name">Gillian Xu, </span>
                 </p>
+                <span className="intro-attribute-text">a &nbsp;
+                    <span className="slideUp">{attributes[index]}</span>
+                </span>
+                </div>
+                
             </div>
             <Experience />
             <Projects />

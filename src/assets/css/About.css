@@ -26,11 +26,12 @@
 
 .profile-image {
     background-image: url("../images/gillian.jpeg");
-    width: 40vh;
-    height: 40vh;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     border-radius: 15px;
-    margin-right: 40px;
+    width: 30vh;
+    height: 30vh;
+    margin-top: 30px;
     box-shadow: 0 4px 8px 0 rgba(127, 109, 96, 0.2), 0 6px 20px 0 rgba(132, 114, 102, 0.19);
 }
 
@@ -38,5 +39,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50vw;
+    padding-left: 30px;
+    width: 75%;
+}
+
+@media only screen and (max-width:600px) {
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-image {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .profile-text {
+        padding-top: 30px;
+    }
 }
