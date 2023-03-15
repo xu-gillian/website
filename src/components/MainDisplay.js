@@ -33,9 +33,9 @@ const MainDisplay = () => {
                     <span>Hi! I'm </span>
                     <span className="name">Gillian Xu, </span>
                 </p>
-                <span className="intro-attribute-text">a &nbsp;
+                <p className="intro-attribute-text">a &nbsp;
                     <span className="slideUp">{attributes[index]}</span>
-                </span>
+                </p>
                 
             </div>
             <Experience />
