@@ -29,7 +29,6 @@ const MainDisplay = () => {
         <div>
             <NavBar />
             <div className="wrapper">
-                <div className="test">
                 <p className="intro-name-text">
                     <span>Hi! I'm </span>
                     <span className="name">Gillian Xu, </span>
@@ -37,7 +36,6 @@ const MainDisplay = () => {
                 <span className="intro-attribute-text">a &nbsp;
                     <span className="slideUp">{attributes[index]}</span>
                 </span>
-                </div>
                 
             </div>
             <Experience />
