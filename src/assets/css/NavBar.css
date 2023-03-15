@@ -52,9 +52,23 @@
     transform-origin: bottom left;
 }
 
-
-
 .nav-container {
     display: flex;
     justify-content: flex-end;
+}
+
+@media only screen and (max-width:600px) {
+    /* .nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    } */
+
+    .nav-top {
+        padding: 20px 10px;
+        width: calc(100% - 20px);
+        top: 0;
+        position: fixed;
+        background: transparent;
+    }
 }

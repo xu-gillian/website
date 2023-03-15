@@ -36,13 +36,11 @@ body {
 }
 
 .intro-attribute-text {
-    /* margin-right: 5px; */
     width: 100%;
     padding-left: 5ch;
     font-size: 75px;
     color: rgb(119, 99, 80);
     display: inline-flex;
-    /* position: absolute; */
     overflow-wrap: break-word;
 }
 
