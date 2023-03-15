@@ -58,11 +58,11 @@
 }
 
 @media only screen and (max-width:600px) {
-    /* .nav-container {
+    .nav-container {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-    } */
+    }
 
     .nav-top {
         padding: 20px 10px;

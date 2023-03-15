@@ -6,6 +6,7 @@ import "../assets/css/NavBar.css";
 
 const NavBar = () => {
     const [navColour, setNavColour] = useState(false);
+    // const [showNav, setShowNav] = useState(false);
 
     // change nav colour when scrolling
     const changeNavColour = () => {
