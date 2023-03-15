@@ -6,12 +6,12 @@
 .about-section {
     font-size: 75px;
     padding-bottom: 15px;
-    color: rgb(119, 99, 80);
+    color: white;
     font-weight: bolder;
 }
 
 .about-container {
-    background-color: rgba(206, 197, 189, 0.862);
+    background-color: #474973;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +31,8 @@
     border-radius: 15px;
     width: 30vh;
     height: 30vh;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 5vw;
     box-shadow: 0 4px 8px 0 rgba(127, 109, 96, 0.2), 0 6px 20px 0 rgba(132, 114, 102, 0.19);
 }
 
@@ -39,8 +40,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 30px;
+    padding-left: 50px;
     width: 75%;
+    color: white;
 }
 
 @media only screen and (max-width:600px) {

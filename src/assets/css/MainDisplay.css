@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, rgba(33, 26, 21, 0.2), rgba(255, 255, 255, 0.85));
+    background: linear-gradient(to bottom, rgba(44, 52, 99, 0.3), rgba(255, 255, 255, 0.9) 80%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ body {
     justify-content: center;
     flex-direction: column;
     overflow-x: scroll;
-    background-image: linear-gradient(to bottom, rgba(111, 111, 111, 0.3), rgba(221, 220, 220, 0.9)),
+    background-image: linear-gradient(to bottom, rgba(44, 52, 99, 0.3), rgba(207, 208, 218, 0.9)),
         url('../images/pngegg.png');
     background-size: cover;
 }
@@ -32,14 +32,14 @@ body {
     padding-top: 25vh;
     font-size: 75px;
     font-weight: 600;
-    color: rgb(119, 99, 80);
+    color: rgb(0, 0, 0);
 }
 
 .intro-attribute-text {
     width: 100%;
     padding-left: 5ch;
     font-size: 75px;
-    color: rgb(119, 99, 80);
+    color: rgb(0, 0, 0);
     display: inline-flex;
     overflow-wrap: break-word;
 }
@@ -56,9 +56,8 @@ body {
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     font-style: italic;
     font-weight: 700;
-    color: rgb(175, 145, 117);
+    color: rgb(103, 103, 103);
     padding-right: 30px;
-
 }
 
 @keyframes slideUp {
@@ -95,7 +94,7 @@ body {
     font-weight: bolder;
     padding-top: 75px;
     padding-bottom: 50px;
-    color: rgb(119, 99, 80);
+    color: rgb(0, 0, 0);
     font-size: 75px;
 }
 
@@ -117,7 +116,7 @@ body {
         padding-top: 25vh;
         font-size: 60px;
         font-weight: 600;
-        color: rgb(119, 99, 80);
+        color: rgb(0, 0, 0);
     }
 
     .intro-attribute-text {
@@ -125,7 +124,7 @@ body {
         padding-left: 3ch;
         padding-top: 5px;
         font-size: 50px;
-        color: rgb(119, 99, 80);
+        color: rgb(0, 0, 0);
         display: inline-flex;
     }
 
@@ -141,7 +140,7 @@ body {
         font-style: italic;
         font-size: 60px;
         font-weight: 700;
-        color: rgb(175, 145, 117);
+        color: rgb(103, 103, 103);
     }
 
     .new-section {

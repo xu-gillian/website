@@ -36,7 +36,7 @@
 .text-techstack {
     font-weight: bold;
     font-style: italic;
-    color: rgb(119, 99, 80);
+    color: rgb(100, 100, 100);
 }
 
 .text-p-e {
@@ -61,14 +61,14 @@
 }
 
 .text-company-project:hover {
-    color: rgb(170, 151, 132);
+    color: #9CA4D3;
 
 }
 
 .experience-container:hover {
     transition-timing-function: ease-in;
     transition: 1s;
-    box-shadow: 0 4px 8px 0 rgba(127, 109, 96, 0.2), 0 6px 20px 0 rgba(132, 114, 102, 0.19);
+    box-shadow: 0 4px 8px 0 #9CA4D3, 0 6px 20px 0 #0D0C1D;
 }
 
 
