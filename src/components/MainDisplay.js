@@ -6,7 +6,9 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import About from "./About";
 import Contact from "./Contact";
+import RightSide from "./RightSide";
 import DinoGame from "./dino-game/DinoGame";
+import LeftSide from "./LeftSide";
 
 
 const MainDisplay = () => {
@@ -28,16 +30,19 @@ const MainDisplay = () => {
 
     return (
         <div>
+            {/* <RightSide /> */}
+            {/* <LeftSide /> */}
             <NavBar />
             <div className="wrapper">
-                <p className="intro-name-text">
-                    <span>Hi! I'm </span>
-                    <span className="name">Gillian Xu, </span>
-                </p>
-                <p className="intro-attribute-text">a &nbsp;
-                    <span className="slideUp">{attributes[index]}</span>
-                </p>
-                
+                <div className="into-text">
+                    <p className="intro-name-text">
+                        <span>Hi! I'm </span>
+                        <span className="name">Gillian Xu, </span>
+                    </p>
+                    <p className="intro-attribute-text">a &nbsp;
+                        <span className="slideUp">{attributes[index]}</span>
+                    </p>
+                </div>
             </div>
             <Experience />
             <Projects />
