@@ -6,6 +6,7 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import About from "./About";
 import Contact from "./Contact";
+import DinoGame from "./dino-game/DinoGame";
 
 
 const MainDisplay = () => {

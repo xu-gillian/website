@@ -8,7 +8,7 @@
 
 .nav-top.active {
     padding: 7px 40px;
-    background: #1F2547;
+    background: #f2eeed;
     transition-timing-function: ease-in;
     transition: 0.5s;
 }
@@ -18,7 +18,7 @@
     font-size: 1.2rem;
     border: 1px solid;
     border-color: transparent;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-radius: 5px;
     cursor: pointer;
     width: fit-content;
@@ -28,10 +28,6 @@
     font-weight: 900;
     display: inline-block;
     position: relative;
-}
-
-.options:hover {
-    color: #9CA4D3;
 }
 
 .options::after {

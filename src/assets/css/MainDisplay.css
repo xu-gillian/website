@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, rgba(44, 52, 99, 0.3), rgba(255, 255, 255, 0.9) 80%);
+    background: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -20,15 +20,17 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, rgba(44, 52, 99, 0.3), rgba(207, 208, 218, 0.9)),
-        url('../images/pngegg.png');
-    background-size: cover;
+    background-image: url('../images/flower-background.jpg');
+    background-position: right;
+    background-color: #f2eeed;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .intro-name-text {
     margin: 0;
     padding-left: 3ch;
-    padding-top: 25vh;
+    padding-top: 30vh;
     font-size: 75px;
     font-weight: 600;
     color: rgb(0, 0, 0);
@@ -55,7 +57,7 @@ body {
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     font-style: italic;
     font-weight: 700;
-    color: rgb(103, 103, 103);
+    color: rgb(125, 125, 125);
 }
 
 @keyframes slideUp {
