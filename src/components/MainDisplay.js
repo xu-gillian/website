@@ -30,7 +30,7 @@ const MainDisplay = () => {
 
     return (
         <div>
-            {/* <RightSide /> */}
+            <RightSide />
             {/* <LeftSide /> */}
             <NavBar />
             <div className="wrapper">

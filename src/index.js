@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "typeface-roboto";
+import "./fonts/Inter/Inter-Regular.ttf";
+import "./fonts/SFmono/SF-Mono-Regular.ttf";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

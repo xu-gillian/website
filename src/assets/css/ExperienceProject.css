@@ -44,16 +44,27 @@
 }
 
 .text-main {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bolder;
+    color: #a04f2d;
 }
 
-.text-company-project {
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    font-size: 18px;
+.text-name-company {
     color: black;
+    text-decoration: none;
+    /* text-decoration: underline; */
+    /* text-underline-offset: 3px; */
+    font-size: 18px;
+    padding-bottom: 3px;
 }
+
+.text-name-project {
+    color: #a04f2d;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 24px;
+}
+
 
 .text-company-project.project {
     font-size: 20px;
@@ -68,7 +79,7 @@
 .experience-container:hover {
     transition-timing-function: ease-in;
     transition: 1s;
-    box-shadow: 0 4px 8px 0 #9CA4D3, 0 6px 20px 0 #0D0C1D;
+    box-shadow: 0 4px 8px 0 #9CA4D3, 0 3px 8px 0 #0D0C1D;
 }
 
 

@@ -10,7 +10,7 @@ const Projects = () => {
                 <div className="logo consano-image" to="https://devpost.com/software/harmonyy-x4k9dq"></div>
                 <div className="experience-text-container">
                     <div className="text-p-e">
-                        <a className="text-company-project project" href="https://devpost.com/software/consano" target="_blank" rel="noreferrer">Consano</a>
+                        <a className="text-name-project" href="https://devpost.com/software/consano" target="_blank" rel="noreferrer">Consano</a>
                         <span>  - Voice-based wellness update web interface for hospital patients</span>
                     </div>
                     <span className="text-techstack">React, Express.js, Cohere.ai API</span>
@@ -28,7 +28,7 @@ const Projects = () => {
                 <div className="harmonyy-image"></div>
                 <div className="experience-text-container">
                     <div className="text-p-e">
-                        <a className="text-company-project project" href="https://devpost.com/software/harmonyy-x4k9dq" target="_blank" rel="noreferrer">Harmonyy</a>
+                        <a className="text-name-project" href="https://devpost.com/software/harmonyy-x4k9dq" target="_blank" rel="noreferrer">Harmonyy</a>
                         <span> - Real-time messaging and interactive gaming platform.</span>
                     </div>
                     <span className="text-techstack">HTML, CSS, JavaScript, MySQL, Node.js</span>
@@ -46,7 +46,7 @@ const Projects = () => {
                 <div className="logo yumyum-image"></div>
                 <div className="experience-text-container">
                     <div className="text-p-e">
-                        <a className="text-company-project project" href="https://xu-gillian.github.io/YuMyUm/" target="_blank" rel="noreferrer">Harmonyy</a>
+                        <a className="text-name-project" href="https://xu-gillian.github.io/YuMyUm/" target="_blank" rel="noreferrer">Harmonyy</a>
                         <span> - Web interface for users to select and total menu items</span>
                     </div>
                     <span className="text-techstack">React, Javascript</span>

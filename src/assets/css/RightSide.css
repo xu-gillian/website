@@ -1,0 +1,21 @@
+.right-side-container {
+    position: fixed;
+    bottom: 0;
+    right: -30px;
+    padding-bottom: 250px;
+}
+
+.email {
+    transform: rotate(90deg);
+}
+
+.right-line {
+    bottom: 0;
+    right: 0;
+    margin-right: 50px;
+    align-items: center;
+    width: auto / 2;
+    position: fixed;
+    height: 180px;
+    border-left: 1px solid black;
+}

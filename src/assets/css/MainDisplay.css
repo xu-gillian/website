@@ -27,24 +27,24 @@ body {
 }
 
 .intro-name-text {
-    font-family: "Inter";
-    margin-left: 20vh;
-    font-size: 60px;
+    font-family: "SFmono";
+    margin-left: 18vh;
+    font-size: 50px;
     color: black;
-    margin-top: 20vh;
+    margin-top: 40vh;
     padding-right: 30px;
     padding-bottom: 20px;
 }
 
 .intro-attribute-text {
-    padding-left: 25vh;
+    padding-left: 23vh;
     padding-right: 30px;
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(0, 0, 0);
     display: inline-flex;
     overflow-wrap: break-word;
     margin: 10px;
-    font-family: "Inter";
+    font-family: "SFmono";
 }
 
 .slideUp {
@@ -58,7 +58,7 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     font-style: italic;
-    color: #5e5e5e;
+    color: #a04f2d;
 }
 
 @keyframes slideUp {
