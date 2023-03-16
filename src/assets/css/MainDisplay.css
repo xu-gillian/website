@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: #f9f1f2;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -20,29 +20,31 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url('../images/flower-background.jpg');
-    background-position: right;
-    background-color: #f2eeed;
-    background-repeat: no-repeat;
-    background-size: contain;
+}
+
+.intro-text {
+    margin: auto;
 }
 
 .intro-name-text {
-    margin: 0;
-    padding-left: 3ch;
-    padding-top: 30vh;
-    font-size: 75px;
-    font-weight: 600;
-    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    margin-left: 20vh;
+    font-size: 60px;
+    color: black;
+    margin-top: 20vh;
+    padding-right: 30px;
+    padding-bottom: 20px;
 }
 
 .intro-attribute-text {
-    padding-left: 5ch;
-    font-size: 75px;
+    padding-left: 25vh;
+    padding-right: 30px;
+    font-size: 60px;
     color: rgb(0, 0, 0);
     display: inline-flex;
     overflow-wrap: break-word;
     margin: 10px;
+    font-family: "Inter";
 }
 
 .slideUp {
@@ -56,8 +58,7 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     font-style: italic;
-    font-weight: 700;
-    color: rgb(125, 125, 125);
+    color: #5e5e5e;
 }
 
 @keyframes slideUp {
@@ -91,11 +92,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bolder;
-    padding-top: 75px;
+    padding-top: 50px;
     padding-bottom: 50px;
     color: rgb(0, 0, 0);
     font-size: 75px;
+    font-family: "Inter";
+    font-weight: 500;
 }
 
 @media only screen and (max-width:700px) {
