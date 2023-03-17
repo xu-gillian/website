@@ -9,10 +9,8 @@ const Projects = () => {
             <div className="experience-container">
                 <div className="logo consano-image" to="https://devpost.com/software/harmonyy-x4k9dq"></div>
                 <div className="experience-text-container">
-                    <div className="text-p-e">
-                        <a className="text-name-project" href="https://devpost.com/software/consano" target="_blank" rel="noreferrer">Consano</a>
-                        <span>  - Voice-based wellness update web interface for hospital patients</span>
-                    </div>
+                    <a className="text-name-project" href="https://devpost.com/software/consano" target="_blank" rel="noreferrer">Consano</a>
+                    <span>Voice-based wellness update web interface for hospital patients.</span>
                     <span className="text-techstack">React, Express.js, Cohere.ai API</span>
                     <ul>
                         <li>Predicted changes in patient health based on natural language statements using NLP API Cohere.ai to train ML model</li>
@@ -27,10 +25,8 @@ const Projects = () => {
             <div className="experience-container">
                 <div className="harmonyy-image"></div>
                 <div className="experience-text-container">
-                    <div className="text-p-e">
-                        <a className="text-name-project" href="https://devpost.com/software/harmonyy-x4k9dq" target="_blank" rel="noreferrer">Harmonyy</a>
-                        <span> - Real-time messaging and interactive gaming platform.</span>
-                    </div>
+                    <a className="text-name-project" href="https://devpost.com/software/harmonyy-x4k9dq" target="_blank" rel="noreferrer">Harmonyy</a>
+                    <span>Real-time messaging and interactive gaming platform.</span>
                     <span className="text-techstack">HTML, CSS, JavaScript, MySQL, Node.js</span>
                     <ul>
                         <li>Developed game logic using JavaScript, allowing users to draw a word on a canvas before prompting others to input a guess</li>
@@ -45,10 +41,8 @@ const Projects = () => {
             <div className="experience-container">
                 <div className="logo yumyum-image"></div>
                 <div className="experience-text-container">
-                    <div className="text-p-e">
-                        <a className="text-name-project" href="https://xu-gillian.github.io/YuMyUm/" target="_blank" rel="noreferrer">Harmonyy</a>
-                        <span> - Web interface for users to select and total menu items</span>
-                    </div>
+                    <a className="text-name-project" href="https://xu-gillian.github.io/YuMyUm/" target="_blank" rel="noreferrer">Harmonyy</a>
+                    <span>Web interface for users to select and total menu items</span>
                     <span className="text-techstack">React, Javascript</span>
                     <ul>
                         <li>Designed a menu allowing users to add desired quantity of items to a cart</li>

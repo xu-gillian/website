@@ -6,6 +6,17 @@
 }
 
 .email {
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.email:hover {
+    color: #a04f2d;
+    font-style: italic;
+}
+
+.testing {
     transform: rotate(90deg);
 }
 

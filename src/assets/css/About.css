@@ -31,12 +31,13 @@
     border-radius: 15px;
     width: 30vh;
     height: 30vh;
-    margin-top: 20px;
+    /* margin-top: 15px; */
     margin-left: 5vw;
     box-shadow: 0 4px 8px 0 rgba(127, 109, 96, 0.2), 0 6px 20px 0 rgba(132, 114, 102, 0.19);
 }
 
 .profile-text {
+    margin-right: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;

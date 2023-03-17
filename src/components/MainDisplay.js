@@ -15,7 +15,7 @@ const MainDisplay = () => {
     const attributes = [
         " Software Developer",
         " Computer Science Student",
-        " Student Athlete",
+        " Frisbee Fanatic",
     ];
 
     const [index, setIndex] = useState(0);
