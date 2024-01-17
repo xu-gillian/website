@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.e1692d40.css",
-    "main.js": "/website/static/js/main.76482a47.js",
+    "main.css": "/website/static/css/main.b9a4c6a3.css",
+    "main.js": "/website/static/js/main.6996cd4a.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
     "static/media/pngegg.png": "/website/static/media/pngegg.6fe1266d969bc04c61bf.png",
+    "static/media/spotworkCover.jpg": "/website/static/media/spotworkCover.cf21ee0e2a64db69be16.jpg",
     "static/media/Inter-Regular.ttf": "/website/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/SF-Mono-Regular.ttf": "/website/static/media/SF-Mono-Regular.27c3873aad854d6e9562.ttf",
     "static/media/bootstrap-icons.woff?": "/website/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
@@ -37,12 +38,12 @@
     "static/media/roboto-latin-900.woff2": "/website/static/media/roboto-latin-900.870c8c1486f76054301a.woff2",
     "static/media/spotworkIcon.png": "/website/static/media/spotworkIcon.a881a8e6f30f9cb580bf.png",
     "index.html": "/website/index.html",
-    "main.e1692d40.css.map": "/website/static/css/main.e1692d40.css.map",
-    "main.76482a47.js.map": "/website/static/js/main.76482a47.js.map",
+    "main.b9a4c6a3.css.map": "/website/static/css/main.b9a4c6a3.css.map",
+    "main.6996cd4a.js.map": "/website/static/js/main.6996cd4a.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1692d40.css",
-    "static/js/main.76482a47.js"
+    "static/css/main.b9a4c6a3.css",
+    "static/js/main.6996cd4a.js"
   ]
 }
