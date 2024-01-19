@@ -89,6 +89,14 @@
     margin: 15px;
 }
 
+.logo.agilmatic-image {
+    background-image: url("../images/agilmaticicon.png")
+}
+
+.logo.dibbly-image {
+    background-image: url("../images/dibblyicon.png")
+}
+
 .logo.spotwork-image {
     background-image: url("../images/spotworkIcon.png");
 }

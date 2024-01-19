@@ -19,7 +19,23 @@ const Projects = () => {
                     </ul>
                 </div>
             </div>
-            
+
+            <div className="section-line"></div>
+
+            <div className="experience-container">
+                <div className="logo felicity-image"></div>
+                <div className="experience-text-container">
+                    <a className="text-name-project" href="https://www.felicityapp.org/" target="_blank" rel="noreferrer">Felicity</a>
+                    <span>Productivity app that diagnoses user habits and provides integrated tools (e.g. to-do lists, calendars, etc.)</span>
+                    <span className="text-techstack">Flutter, Dart, Firebase</span>
+                    <ul>
+                        <li>Deveoped UI for a productivity assessment questionnaire consisting of a sequence of timed questions</li>
+                        <li>Designed and developed a customizable pomodoro timer</li>
+                        <li>Tested cross-platform functionality using Android Emulator to ensure compatibility</li>
+                    </ul>
+                </div>
+            </div>
+                
             <div className="section-line"></div>
 
             <div className="experience-container">

@@ -7,8 +7,6 @@ import Projects from "./Projects";
 import About from "./About";
 import Contact from "./Contact";
 import RightSide from "./RightSide";
-import DinoGame from "./dino-game/DinoGame";
-import LeftSide from "./LeftSide";
 
 
 const MainDisplay = () => {
@@ -16,13 +14,14 @@ const MainDisplay = () => {
         " Software Developer",
         " Computer Science Student",
         " Frisbee Fanatic",
+        "Hiking Enthusiast"
     ];
 
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {
-        setIndex((prevIndex) => prevIndex === 2 ? prevIndex = 0 : prevIndex += 1)
+        setIndex((prevIndex) => prevIndex === 3 ? prevIndex = 0 : prevIndex += 1)
         }, 5000);
 
         return () => clearInterval(interval);
