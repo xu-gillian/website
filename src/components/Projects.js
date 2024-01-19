@@ -57,7 +57,7 @@ const Projects = () => {
             <div className="experience-container">
                 <div className="logo yumyum-image"></div>
                 <div className="experience-text-container">
-                    <a className="text-name-project" href="https://xu-gillian.github.io/YuMyUm/" target="_blank" rel="noreferrer">Harmonyy</a>
+                    <a className="text-name-project" href="https://xu-gillian.github.io/YuMyUm/" target="_blank" rel="noreferrer">YuMyUm</a>
                     <span>Web interface for users to select and total menu items</span>
                     <span className="text-techstack">React, Javascript</span>
                     <ul>
